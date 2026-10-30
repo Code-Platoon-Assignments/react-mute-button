@@ -4,7 +4,16 @@ Continuing in our exploration handling interactions and events in React, we'll n
 
 Release 0
 -------------
-* Scaffold the app using `npm create vite` or `npx create vite`.
+* Scaffold the app (Node 22 or 24) and start it:
+
+```sh
+npm create vite@latest mute-button -- --template react
+cd mute-button
+npm install
+npm run dev
+```
+
+* Copy the **icons** folder into `mute-button/src/assets/`, then import the images: `import onIcon from './assets/icons/on.svg'`.
 
 Release 1
 -------------
